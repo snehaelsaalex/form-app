@@ -1,0 +1,26 @@
+.edit-btn {
+background: transparent;
+color: #6bb7e6;
+text-decoration: underline;
+border: none;
+outline: none;
+}
+.edit-btn:focus {
+    border: none;
+    outline: none;
+}
+.review-form-height {
+    min-height: 76vh;
+}
+.highlighted-text {
+    color: #6bb7e6;
+    font-weight: 500;
+}
+.photo-input{
+    position: relative;
+    top: -26px;
+    left: 4px;
+    opacity: 0;
+    cursor: pointer;
+    width: 166px;
+}

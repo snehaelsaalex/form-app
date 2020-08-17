@@ -1,0 +1,99 @@
+
+.photo-upload-container {
+    background-color: #6095c9;
+    width: 180px;
+    height: 180px;
+    border: 2px solid #4f7196;
+    padding: 18px;
+    text-align: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.photo-upload-input{
+    position: relative;
+    top: -78%;
+    left: -14px;
+    opacity: 0;
+    cursor: pointer;
+    height: 100px;
+}
+.photo-upload-text{
+    color: #e8f8ff;
+    text-decoration: underline;
+    padding: 42px 29px;
+    display: inline-block;
+    font-size: 16px;
+}
+.register-form-container {
+    border-left: 1px solid #4f7196;
+    padding-left: 30px;
+    
+
+    /* justify-content: flex-end;
+    display: flex; */
+}
+.form-label {
+    font-size:14px;
+    color: #000000;
+}
+.form-name-label{
+    margin-top: 12px;
+}
+.form-input{
+ border: 2px solid #6095c9;
+ border-radius: unset;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 74%;
+    height: 10px;
+    background: #ffffff;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border: 2px solid #4f7196;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 35px;
+    background: #6095c9;
+    border: 2px solid #4f7196;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 12px;
+    height: 35px;
+    background: #6095c9;
+    cursor: pointer;
+  }
+  .age-seperation-container {
+    position: relative;
+    top: -35px;
+    left: -3px;
+  }
+ .seperation {
+     width: 1px;
+     height: 35px;
+     background-color: #6095c9;
+ }
+ .margin-left {
+    margin-left:28px;
+ }
+ .checkbox {
+     background-color:#6095c9 ;
+ }
+ .error-message{
+     color: rgba(255, 0, 0, 0.822);
+     font-size: 12px;
+     margin-top: 3px;
+ }
